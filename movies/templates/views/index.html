@@ -1,0 +1,15 @@
+
+
+<h1>Hello I'm HTML</h1>
+
+{% comment %}
+
+{% %} - is for logic. For loops, math, etc...
+{{ }} - to render values
+
+ {% endcomment %}
+
+{% for movie in catalog %}
+    {{movie.title}}
+    {{movie.stock}}
+{% endfor %}
